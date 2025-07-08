@@ -10,7 +10,7 @@
 //1. print even numbers from a list
 
 function printEvenNumbers(list) {
-    console.log("Even numbers:--");
+    console.log("Even numbers:");
     list.forEach(num => {
         if (num % 2 === 0) {
             console.log(num);
